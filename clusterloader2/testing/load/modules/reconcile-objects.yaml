@@ -45,7 +45,7 @@
 {{$pvMediumStatefulSetSize := DefaultParam .pvMediumStatefulSetSize 0}}
 
 ## CL2 params
-{{$CHECK_IF_PODS_ARE_UPDATED := DefaultParam .CL2_CHECK_IF_PODS_ARE_UPDATED true}}
+{{$CHECK_IF_PODS_ARE_UPDATED := DefaultParam .CL2_CHECK_IF_PODS_ARE_UPDATED false}}
 {{$DISABLE_DAEMONSETS := DefaultParam .CL2_DISABLE_DAEMONSETS false}}
 {{$ENABLE_DNSTESTS := DefaultParam .CL2_ENABLE_DNSTESTS false}}
 {{$ENABLE_NETWORKPOLICIES := DefaultParam .CL2_ENABLE_NETWORKPOLICIES false}}

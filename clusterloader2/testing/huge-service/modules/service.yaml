@@ -4,7 +4,7 @@
 {{$serviceName := .serviceName}}
 
 ## CL2 params
-{{$CHECK_IF_PODS_ARE_UPDATED := DefaultParam .CL2_CHECK_IF_PODS_ARE_UPDATED true}}
+{{$CHECK_IF_PODS_ARE_UPDATED := DefaultParam .CL2_CHECK_IF_PODS_ARE_UPDATED false}}
 {{$ENABLE_LARGE_STATEFULSET := DefaultParam .CL2_ENABLE_LARGE_STATEFULSET false}}
 
 steps:

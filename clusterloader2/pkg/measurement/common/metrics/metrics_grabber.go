@@ -30,6 +30,7 @@ import (
 	"k8s.io/kubernetes/pkg/cluster/ports"
 	"k8s.io/kubernetes/test/e2e/framework"
 	e2epod "k8s.io/kubernetes/test/e2e/framework/pod"
+	"k8s.io/perf-tests/clusterloader2/pkg/util"
 
 	"k8s.io/klog/v2"
 )
@@ -94,7 +95,7 @@ func NewMetricsGrabber(c clientset.Interface, ec clientset.Interface, kubelets b
 		klog.Warning("Can't find any Nodes in the API server to grab metrics from")
 	}
 	for _, node := range nodeList.Items {
-		if deprecatedMightBeMasterNode(node.Name) {
+		if util.LegacyIsMasterNode(&node) {
 			registeredMaster = true
 			masterName = node.Name
 			break

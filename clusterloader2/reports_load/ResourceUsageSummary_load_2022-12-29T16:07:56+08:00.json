@@ -1,0 +1,730 @@
+{
+  "100": [
+    {
+      "Name": "coredns-767c486d54-n4gvk/coredns",
+      "CPU": 0.038009205,
+      "Mem": 40247296
+    },
+    {
+      "Name": "coredns-767c486d54-n6mrk/coredns",
+      "CPU": 0.018293513,
+      "Mem": 43311104
+    },
+    {
+      "Name": "etcd-huaqing-sks-test-3-3-controlplane-2prfs/etcd",
+      "CPU": 0.118815836,
+      "Mem": 163282944
+    },
+    {
+      "Name": "etcd-huaqing-sks-test-3-3-controlplane-4f96c/etcd",
+      "CPU": 0.216856865,
+      "Mem": 152489984
+    },
+    {
+      "Name": "etcd-huaqing-sks-test-3-3-controlplane-x8fg4/etcd",
+      "CPU": 0.370217937,
+      "Mem": 174501888
+    },
+    {
+      "Name": "huaqing-sks-test-3-3-controlplane-2prfs/kubelet",
+      "CPU": 0.039060669,
+      "Mem": 80412672
+    },
+    {
+      "Name": "huaqing-sks-test-3-3-controlplane-2prfs/pods",
+      "CPU": 0,
+      "Mem": 8253440
+    },
+    {
+      "Name": "huaqing-sks-test-3-3-controlplane-4f96c/kubelet",
+      "CPU": 0.033064758,
+      "Mem": 81711104
+    },
+    {
+      "Name": "huaqing-sks-test-3-3-controlplane-4f96c/pods",
+      "CPU": 0,
+      "Mem": 8253440
+    },
+    {
+      "Name": "huaqing-sks-test-3-3-controlplane-x8fg4/kubelet",
+      "CPU": 0.042098167,
+      "Mem": 86503424
+    },
+    {
+      "Name": "huaqing-sks-test-3-3-controlplane-x8fg4/pods",
+      "CPU": 0,
+      "Mem": 12062720
+    },
+    {
+      "Name": "huaqing-sks-test-3-3-workergroup-2nzxz/kubelet",
+      "CPU": 0.09079114,
+      "Mem": 138924032
+    },
+    {
+      "Name": "huaqing-sks-test-3-3-workergroup-2nzxz/pods",
+      "CPU": 0,
+      "Mem": 24117248
+    },
+    {
+      "Name": "huaqing-sks-test-3-3-workergroup-45zbj/kubelet",
+      "CPU": 0.063697382,
+      "Mem": 114106368
+    },
+    {
+      "Name": "huaqing-sks-test-3-3-workergroup-45zbj/pods",
+      "CPU": 0,
+      "Mem": 15233024
+    },
+    {
+      "Name": "huaqing-sks-test-3-3-workergroup-jh96q/kubelet",
+      "CPU": 0.108426007,
+      "Mem": 136503296
+    },
+    {
+      "Name": "huaqing-sks-test-3-3-workergroup-jh96q/pods",
+      "CPU": 0,
+      "Mem": 35540992
+    },
+    {
+      "Name": "kube-apiserver-huaqing-sks-test-3-3-controlplane-2prfs/kube-apiserver",
+      "CPU": 0.645896789,
+      "Mem": 738230272
+    },
+    {
+      "Name": "kube-apiserver-huaqing-sks-test-3-3-controlplane-4f96c/kube-apiserver",
+      "CPU": 0.783280124,
+      "Mem": 684605440
+    },
+    {
+      "Name": "kube-apiserver-huaqing-sks-test-3-3-controlplane-x8fg4/kube-apiserver",
+      "CPU": 2.217379142,
+      "Mem": 878268416
+    },
+    {
+      "Name": "kube-controller-manager-huaqing-sks-test-3-3-controlplane-2prfs/kube-controller-manager",
+      "CPU": 0.04011193,
+      "Mem": 33845248
+    },
+    {
+      "Name": "kube-controller-manager-huaqing-sks-test-3-3-controlplane-4f96c/kube-controller-manager",
+      "CPU": 0.004537653,
+      "Mem": 35868672
+    },
+    {
+      "Name": "kube-controller-manager-huaqing-sks-test-3-3-controlplane-x8fg4/kube-controller-manager",
+      "CPU": 0.253660513,
+      "Mem": 143470592
+    },
+    {
+      "Name": "kube-proxy-5vq4b/kube-proxy",
+      "CPU": 0.362250949,
+      "Mem": 26849280
+    },
+    {
+      "Name": "kube-proxy-66xwl/kube-proxy",
+      "CPU": 0.151204232,
+      "Mem": 27324416
+    },
+    {
+      "Name": "kube-proxy-8mqpm/kube-proxy",
+      "CPU": 0.056462836,
+      "Mem": 28483584
+    },
+    {
+      "Name": "kube-proxy-k8lx5/kube-proxy",
+      "CPU": 0.054615059,
+      "Mem": 28352512
+    },
+    {
+      "Name": "kube-proxy-n2kv8/kube-proxy",
+      "CPU": 0.47421544,
+      "Mem": 27238400
+    },
+    {
+      "Name": "kube-proxy-n5r8r/kube-proxy",
+      "CPU": 0.030476308,
+      "Mem": 30765056
+    },
+    {
+      "Name": "kube-scheduler-huaqing-sks-test-3-3-controlplane-2prfs/kube-scheduler",
+      "CPU": 0.037711644,
+      "Mem": 44470272
+    },
+    {
+      "Name": "kube-scheduler-huaqing-sks-test-3-3-controlplane-4f96c/kube-scheduler",
+      "CPU": 0.013376801,
+      "Mem": 46202880
+    },
+    {
+      "Name": "kube-scheduler-huaqing-sks-test-3-3-controlplane-x8fg4/kube-scheduler",
+      "CPU": 0.11029081,
+      "Mem": 69033984
+    },
+    {
+      "Name": "kube-vip-huaqing-sks-test-3-3-controlplane-2prfs/kube-vip",
+      "CPU": 0.002740226,
+      "Mem": 18944000
+    },
+    {
+      "Name": "kube-vip-huaqing-sks-test-3-3-controlplane-4f96c/kube-vip",
+      "CPU": 0,
+      "Mem": 17068032
+    },
+    {
+      "Name": "kube-vip-huaqing-sks-test-3-3-controlplane-x8fg4/kube-vip",
+      "CPU": 0.016659376,
+      "Mem": 22417408
+    },
+    {
+      "Name": "snapshot-controller-5799d596dd-nnmk6/snapshot-controller",
+      "CPU": 0.000038432,
+      "Mem": 22532096
+    }
+  ],
+  "50": [
+    {
+      "Name": "coredns-767c486d54-n4gvk/coredns",
+      "CPU": 0.002496226,
+      "Mem": 39002112
+    },
+    {
+      "Name": "coredns-767c486d54-n6mrk/coredns",
+      "CPU": 0.002352274,
+      "Mem": 41254912
+    },
+    {
+      "Name": "etcd-huaqing-sks-test-3-3-controlplane-2prfs/etcd",
+      "CPU": 0.065141704,
+      "Mem": 145788928
+    },
+    {
+      "Name": "etcd-huaqing-sks-test-3-3-controlplane-4f96c/etcd",
+      "CPU": 0.04598316,
+      "Mem": 140570624
+    },
+    {
+      "Name": "etcd-huaqing-sks-test-3-3-controlplane-x8fg4/etcd",
+      "CPU": 0.107547339,
+      "Mem": 153427968
+    },
+    {
+      "Name": "huaqing-sks-test-3-3-controlplane-2prfs/kubelet",
+      "CPU": 0.029359608,
+      "Mem": 79323136
+    },
+    {
+      "Name": "huaqing-sks-test-3-3-controlplane-2prfs/pods",
+      "CPU": 0,
+      "Mem": 8253440
+    },
+    {
+      "Name": "huaqing-sks-test-3-3-controlplane-4f96c/kubelet",
+      "CPU": 0.027224691,
+      "Mem": 80764928
+    },
+    {
+      "Name": "huaqing-sks-test-3-3-controlplane-4f96c/pods",
+      "CPU": 0,
+      "Mem": 8253440
+    },
+    {
+      "Name": "huaqing-sks-test-3-3-controlplane-x8fg4/kubelet",
+      "CPU": 0.037828979,
+      "Mem": 84897792
+    },
+    {
+      "Name": "huaqing-sks-test-3-3-controlplane-x8fg4/pods",
+      "CPU": 0,
+      "Mem": 12062720
+    },
+    {
+      "Name": "huaqing-sks-test-3-3-workergroup-2nzxz/kubelet",
+      "CPU": 0.060920871,
+      "Mem": 134561792
+    },
+    {
+      "Name": "huaqing-sks-test-3-3-workergroup-2nzxz/pods",
+      "CPU": 0,
+      "Mem": 22851584
+    },
+    {
+      "Name": "huaqing-sks-test-3-3-workergroup-45zbj/kubelet",
+      "CPU": 0.053112466,
+      "Mem": 110100480
+    },
+    {
+      "Name": "huaqing-sks-test-3-3-workergroup-45zbj/pods",
+      "CPU": 0,
+      "Mem": 13963264
+    },
+    {
+      "Name": "huaqing-sks-test-3-3-workergroup-jh96q/kubelet",
+      "CPU": 0.079861663,
+      "Mem": 132407296
+    },
+    {
+      "Name": "huaqing-sks-test-3-3-workergroup-jh96q/pods",
+      "CPU": 0,
+      "Mem": 33001472
+    },
+    {
+      "Name": "kube-apiserver-huaqing-sks-test-3-3-controlplane-2prfs/kube-apiserver",
+      "CPU": 0.052138308,
+      "Mem": 687669248
+    },
+    {
+      "Name": "kube-apiserver-huaqing-sks-test-3-3-controlplane-4f96c/kube-apiserver",
+      "CPU": 0.025900487,
+      "Mem": 669577216
+    },
+    {
+      "Name": "kube-apiserver-huaqing-sks-test-3-3-controlplane-x8fg4/kube-apiserver",
+      "CPU": 0.162923899,
+      "Mem": 851243008
+    },
+    {
+      "Name": "kube-controller-manager-huaqing-sks-test-3-3-controlplane-2prfs/kube-controller-manager",
+      "CPU": 0.000692843,
+      "Mem": 32239616
+    },
+    {
+      "Name": "kube-controller-manager-huaqing-sks-test-3-3-controlplane-4f96c/kube-controller-manager",
+      "CPU": 0,
+      "Mem": 35868672
+    },
+    {
+      "Name": "kube-controller-manager-huaqing-sks-test-3-3-controlplane-x8fg4/kube-controller-manager",
+      "CPU": 0.02795461,
+      "Mem": 136663040
+    },
+    {
+      "Name": "kube-proxy-5vq4b/kube-proxy",
+      "CPU": 0,
+      "Mem": 26439680
+    },
+    {
+      "Name": "kube-proxy-66xwl/kube-proxy",
+      "CPU": 0,
+      "Mem": 26628096
+    },
+    {
+      "Name": "kube-proxy-8mqpm/kube-proxy",
+      "CPU": 0.000120158,
+      "Mem": 27975680
+    },
+    {
+      "Name": "kube-proxy-k8lx5/kube-proxy",
+      "CPU": 0.000122858,
+      "Mem": 27787264
+    },
+    {
+      "Name": "kube-proxy-n2kv8/kube-proxy",
+      "CPU": 0,
+      "Mem": 26222592
+    },
+    {
+      "Name": "kube-proxy-n5r8r/kube-proxy",
+      "CPU": 0.000125145,
+      "Mem": 30498816
+    },
+    {
+      "Name": "kube-scheduler-huaqing-sks-test-3-3-controlplane-2prfs/kube-scheduler",
+      "CPU": 0.002296829,
+      "Mem": 42250240
+    },
+    {
+      "Name": "kube-scheduler-huaqing-sks-test-3-3-controlplane-4f96c/kube-scheduler",
+      "CPU": 0.001418248,
+      "Mem": 45076480
+    },
+    {
+      "Name": "kube-scheduler-huaqing-sks-test-3-3-controlplane-x8fg4/kube-scheduler",
+      "CPU": 0.002409284,
+      "Mem": 65134592
+    },
+    {
+      "Name": "kube-vip-huaqing-sks-test-3-3-controlplane-2prfs/kube-vip",
+      "CPU": 0,
+      "Mem": 18808832
+    },
+    {
+      "Name": "kube-vip-huaqing-sks-test-3-3-controlplane-4f96c/kube-vip",
+      "CPU": 0,
+      "Mem": 16867328
+    },
+    {
+      "Name": "kube-vip-huaqing-sks-test-3-3-controlplane-x8fg4/kube-vip",
+      "CPU": 0,
+      "Mem": 22089728
+    },
+    {
+      "Name": "snapshot-controller-5799d596dd-nnmk6/snapshot-controller",
+      "CPU": 0,
+      "Mem": 22212608
+    }
+  ],
+  "90": [
+    {
+      "Name": "coredns-767c486d54-n4gvk/coredns",
+      "CPU": 0.009109364,
+      "Mem": 40247296
+    },
+    {
+      "Name": "coredns-767c486d54-n6mrk/coredns",
+      "CPU": 0.013614293,
+      "Mem": 43302912
+    },
+    {
+      "Name": "etcd-huaqing-sks-test-3-3-controlplane-2prfs/etcd",
+      "CPU": 0.099961971,
+      "Mem": 159293440
+    },
+    {
+      "Name": "etcd-huaqing-sks-test-3-3-controlplane-4f96c/etcd",
+      "CPU": 0.097171314,
+      "Mem": 150147072
+    },
+    {
+      "Name": "etcd-huaqing-sks-test-3-3-controlplane-x8fg4/etcd",
+      "CPU": 0.218933575,
+      "Mem": 167772160
+    },
+    {
+      "Name": "huaqing-sks-test-3-3-controlplane-2prfs/kubelet",
+      "CPU": 0.031707429,
+      "Mem": 79896576
+    },
+    {
+      "Name": "huaqing-sks-test-3-3-controlplane-2prfs/pods",
+      "CPU": 0,
+      "Mem": 8253440
+    },
+    {
+      "Name": "huaqing-sks-test-3-3-controlplane-4f96c/kubelet",
+      "CPU": 0.031365385,
+      "Mem": 81391616
+    },
+    {
+      "Name": "huaqing-sks-test-3-3-controlplane-4f96c/pods",
+      "CPU": 0,
+      "Mem": 8253440
+    },
+    {
+      "Name": "huaqing-sks-test-3-3-controlplane-x8fg4/kubelet",
+      "CPU": 0.041673524,
+      "Mem": 86380544
+    },
+    {
+      "Name": "huaqing-sks-test-3-3-controlplane-x8fg4/pods",
+      "CPU": 0,
+      "Mem": 12062720
+    },
+    {
+      "Name": "huaqing-sks-test-3-3-workergroup-2nzxz/kubelet",
+      "CPU": 0.09079114,
+      "Mem": 138924032
+    },
+    {
+      "Name": "huaqing-sks-test-3-3-workergroup-2nzxz/pods",
+      "CPU": 0,
+      "Mem": 24117248
+    },
+    {
+      "Name": "huaqing-sks-test-3-3-workergroup-45zbj/kubelet",
+      "CPU": 0.063697382,
+      "Mem": 114106368
+    },
+    {
+      "Name": "huaqing-sks-test-3-3-workergroup-45zbj/pods",
+      "CPU": 0,
+      "Mem": 15233024
+    },
+    {
+      "Name": "huaqing-sks-test-3-3-workergroup-jh96q/kubelet",
+      "CPU": 0.108426007,
+      "Mem": 136503296
+    },
+    {
+      "Name": "huaqing-sks-test-3-3-workergroup-jh96q/pods",
+      "CPU": 0,
+      "Mem": 35540992
+    },
+    {
+      "Name": "kube-apiserver-huaqing-sks-test-3-3-controlplane-2prfs/kube-apiserver",
+      "CPU": 0.106449756,
+      "Mem": 711598080
+    },
+    {
+      "Name": "kube-apiserver-huaqing-sks-test-3-3-controlplane-4f96c/kube-apiserver",
+      "CPU": 0.32938296,
+      "Mem": 671207424
+    },
+    {
+      "Name": "kube-apiserver-huaqing-sks-test-3-3-controlplane-x8fg4/kube-apiserver",
+      "CPU": 0.745222384,
+      "Mem": 878256128
+    },
+    {
+      "Name": "kube-controller-manager-huaqing-sks-test-3-3-controlplane-2prfs/kube-controller-manager",
+      "CPU": 0.002653354,
+      "Mem": 32239616
+    },
+    {
+      "Name": "kube-controller-manager-huaqing-sks-test-3-3-controlplane-4f96c/kube-controller-manager",
+      "CPU": 0.002700309,
+      "Mem": 35868672
+    },
+    {
+      "Name": "kube-controller-manager-huaqing-sks-test-3-3-controlplane-x8fg4/kube-controller-manager",
+      "CPU": 0.075814946,
+      "Mem": 141099008
+    },
+    {
+      "Name": "kube-proxy-5vq4b/kube-proxy",
+      "CPU": 0.002738732,
+      "Mem": 26451968
+    },
+    {
+      "Name": "kube-proxy-66xwl/kube-proxy",
+      "CPU": 0.000740517,
+      "Mem": 27103232
+    },
+    {
+      "Name": "kube-proxy-8mqpm/kube-proxy",
+      "CPU": 0.056462836,
+      "Mem": 28483584
+    },
+    {
+      "Name": "kube-proxy-k8lx5/kube-proxy",
+      "CPU": 0.054615059,
+      "Mem": 28352512
+    },
+    {
+      "Name": "kube-proxy-n2kv8/kube-proxy",
+      "CPU": 0.137078834,
+      "Mem": 26513408
+    },
+    {
+      "Name": "kube-proxy-n5r8r/kube-proxy",
+      "CPU": 0.030476308,
+      "Mem": 30765056
+    },
+    {
+      "Name": "kube-scheduler-huaqing-sks-test-3-3-controlplane-2prfs/kube-scheduler",
+      "CPU": 0.009901027,
+      "Mem": 43450368
+    },
+    {
+      "Name": "kube-scheduler-huaqing-sks-test-3-3-controlplane-4f96c/kube-scheduler",
+      "CPU": 0.007099958,
+      "Mem": 45498368
+    },
+    {
+      "Name": "kube-scheduler-huaqing-sks-test-3-3-controlplane-x8fg4/kube-scheduler",
+      "CPU": 0.069074604,
+      "Mem": 66781184
+    },
+    {
+      "Name": "kube-vip-huaqing-sks-test-3-3-controlplane-2prfs/kube-vip",
+      "CPU": 0.001608899,
+      "Mem": 18939904
+    },
+    {
+      "Name": "kube-vip-huaqing-sks-test-3-3-controlplane-4f96c/kube-vip",
+      "CPU": 0,
+      "Mem": 17027072
+    },
+    {
+      "Name": "kube-vip-huaqing-sks-test-3-3-controlplane-x8fg4/kube-vip",
+      "CPU": 0.007365841,
+      "Mem": 22388736
+    },
+    {
+      "Name": "snapshot-controller-5799d596dd-nnmk6/snapshot-controller",
+      "CPU": 0.000038432,
+      "Mem": 22532096
+    }
+  ],
+  "99": [
+    {
+      "Name": "coredns-767c486d54-n4gvk/coredns",
+      "CPU": 0.038009205,
+      "Mem": 40247296
+    },
+    {
+      "Name": "coredns-767c486d54-n6mrk/coredns",
+      "CPU": 0.018293513,
+      "Mem": 43311104
+    },
+    {
+      "Name": "etcd-huaqing-sks-test-3-3-controlplane-2prfs/etcd",
+      "CPU": 0.118815836,
+      "Mem": 163282944
+    },
+    {
+      "Name": "etcd-huaqing-sks-test-3-3-controlplane-4f96c/etcd",
+      "CPU": 0.216856865,
+      "Mem": 152489984
+    },
+    {
+      "Name": "etcd-huaqing-sks-test-3-3-controlplane-x8fg4/etcd",
+      "CPU": 0.370217937,
+      "Mem": 174501888
+    },
+    {
+      "Name": "huaqing-sks-test-3-3-controlplane-2prfs/kubelet",
+      "CPU": 0.039060669,
+      "Mem": 80412672
+    },
+    {
+      "Name": "huaqing-sks-test-3-3-controlplane-2prfs/pods",
+      "CPU": 0,
+      "Mem": 8253440
+    },
+    {
+      "Name": "huaqing-sks-test-3-3-controlplane-4f96c/kubelet",
+      "CPU": 0.033064758,
+      "Mem": 81711104
+    },
+    {
+      "Name": "huaqing-sks-test-3-3-controlplane-4f96c/pods",
+      "CPU": 0,
+      "Mem": 8253440
+    },
+    {
+      "Name": "huaqing-sks-test-3-3-controlplane-x8fg4/kubelet",
+      "CPU": 0.042098167,
+      "Mem": 86503424
+    },
+    {
+      "Name": "huaqing-sks-test-3-3-controlplane-x8fg4/pods",
+      "CPU": 0,
+      "Mem": 12062720
+    },
+    {
+      "Name": "huaqing-sks-test-3-3-workergroup-2nzxz/kubelet",
+      "CPU": 0.09079114,
+      "Mem": 138924032
+    },
+    {
+      "Name": "huaqing-sks-test-3-3-workergroup-2nzxz/pods",
+      "CPU": 0,
+      "Mem": 24117248
+    },
+    {
+      "Name": "huaqing-sks-test-3-3-workergroup-45zbj/kubelet",
+      "CPU": 0.063697382,
+      "Mem": 114106368
+    },
+    {
+      "Name": "huaqing-sks-test-3-3-workergroup-45zbj/pods",
+      "CPU": 0,
+      "Mem": 15233024
+    },
+    {
+      "Name": "huaqing-sks-test-3-3-workergroup-jh96q/kubelet",
+      "CPU": 0.108426007,
+      "Mem": 136503296
+    },
+    {
+      "Name": "huaqing-sks-test-3-3-workergroup-jh96q/pods",
+      "CPU": 0,
+      "Mem": 35540992
+    },
+    {
+      "Name": "kube-apiserver-huaqing-sks-test-3-3-controlplane-2prfs/kube-apiserver",
+      "CPU": 0.645896789,
+      "Mem": 738230272
+    },
+    {
+      "Name": "kube-apiserver-huaqing-sks-test-3-3-controlplane-4f96c/kube-apiserver",
+      "CPU": 0.783280124,
+      "Mem": 684605440
+    },
+    {
+      "Name": "kube-apiserver-huaqing-sks-test-3-3-controlplane-x8fg4/kube-apiserver",
+      "CPU": 2.217379142,
+      "Mem": 878268416
+    },
+    {
+      "Name": "kube-controller-manager-huaqing-sks-test-3-3-controlplane-2prfs/kube-controller-manager",
+      "CPU": 0.04011193,
+      "Mem": 33845248
+    },
+    {
+      "Name": "kube-controller-manager-huaqing-sks-test-3-3-controlplane-4f96c/kube-controller-manager",
+      "CPU": 0.004537653,
+      "Mem": 35868672
+    },
+    {
+      "Name": "kube-controller-manager-huaqing-sks-test-3-3-controlplane-x8fg4/kube-controller-manager",
+      "CPU": 0.253660513,
+      "Mem": 143470592
+    },
+    {
+      "Name": "kube-proxy-5vq4b/kube-proxy",
+      "CPU": 0.362250949,
+      "Mem": 26849280
+    },
+    {
+      "Name": "kube-proxy-66xwl/kube-proxy",
+      "CPU": 0.151204232,
+      "Mem": 27324416
+    },
+    {
+      "Name": "kube-proxy-8mqpm/kube-proxy",
+      "CPU": 0.056462836,
+      "Mem": 28483584
+    },
+    {
+      "Name": "kube-proxy-k8lx5/kube-proxy",
+      "CPU": 0.054615059,
+      "Mem": 28352512
+    },
+    {
+      "Name": "kube-proxy-n2kv8/kube-proxy",
+      "CPU": 0.47421544,
+      "Mem": 27238400
+    },
+    {
+      "Name": "kube-proxy-n5r8r/kube-proxy",
+      "CPU": 0.030476308,
+      "Mem": 30765056
+    },
+    {
+      "Name": "kube-scheduler-huaqing-sks-test-3-3-controlplane-2prfs/kube-scheduler",
+      "CPU": 0.037711644,
+      "Mem": 44470272
+    },
+    {
+      "Name": "kube-scheduler-huaqing-sks-test-3-3-controlplane-4f96c/kube-scheduler",
+      "CPU": 0.013376801,
+      "Mem": 46202880
+    },
+    {
+      "Name": "kube-scheduler-huaqing-sks-test-3-3-controlplane-x8fg4/kube-scheduler",
+      "CPU": 0.11029081,
+      "Mem": 69033984
+    },
+    {
+      "Name": "kube-vip-huaqing-sks-test-3-3-controlplane-2prfs/kube-vip",
+      "CPU": 0.002740226,
+      "Mem": 18944000
+    },
+    {
+      "Name": "kube-vip-huaqing-sks-test-3-3-controlplane-4f96c/kube-vip",
+      "CPU": 0,
+      "Mem": 17068032
+    },
+    {
+      "Name": "kube-vip-huaqing-sks-test-3-3-controlplane-x8fg4/kube-vip",
+      "CPU": 0.016659376,
+      "Mem": 22417408
+    },
+    {
+      "Name": "snapshot-controller-5799d596dd-nnmk6/snapshot-controller",
+      "CPU": 0.000038432,
+      "Mem": 22532096
+    }
+  ]
+}

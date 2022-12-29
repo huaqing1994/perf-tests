@@ -18,8 +18,8 @@ spec:
     {{if not $PROMETHEUS_SCRAPE_APISERVER_ONLY}}
     - name: etcd-2379
       port: 2379
-    - name: etcd-2382
-      port: 2382
+    - name: etcd-2381
+      port: 2381
     - name: kubelet
       port: 10250
     - name: kube-scheduler

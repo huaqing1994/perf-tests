@@ -19,7 +19,7 @@
 ## Variables
 {{$latencyReplicas := Ceil (DivideFloat $LATENCY_POD_COUNT $namespaces)}}
 {{$podStartupLatencyThreshold := DefaultParam .CL2_POD_STARTUP_LATENCY_THRESHOLD "5s"}}
-{{$CHECK_IF_PODS_ARE_UPDATED := DefaultParam .CL2_CHECK_IF_PODS_ARE_UPDATED true}}
+{{$CHECK_IF_PODS_ARE_UPDATED := DefaultParam .CL2_CHECK_IF_PODS_ARE_UPDATED false}}
 
 steps:
 - name: Starting latency pod measurements

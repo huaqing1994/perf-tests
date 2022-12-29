@@ -26,7 +26,7 @@ import (
 	"k8s.io/perf-tests/clusterloader2/pkg/framework/client"
 )
 
-const keyMasterNodeLabel = "node-role.kubernetes.io/master"
+const keyMasterNodeLabel = "node-role.kubernetes.io/control-plane"
 
 // Based on the following docs:
 // https://kubernetes.io/docs/concepts/scheduling-eviction/taint-and-toleration/#taint-based-evictions

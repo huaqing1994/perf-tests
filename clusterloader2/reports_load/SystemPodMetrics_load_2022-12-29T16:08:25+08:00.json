@@ -1,0 +1,244 @@
+{
+  "pods": [
+    {
+      "name": "kube-apiserver-huaqing-sks-test-3-3-controlplane-4f96c",
+      "containers": [
+        {
+          "name": "kube-apiserver",
+          "restartCount": 0,
+          "lastRestartReason": ""
+        }
+      ]
+    },
+    {
+      "name": "etcd-huaqing-sks-test-3-3-controlplane-4f96c",
+      "containers": [
+        {
+          "name": "etcd",
+          "restartCount": 0,
+          "lastRestartReason": ""
+        }
+      ]
+    },
+    {
+      "name": "etcd-huaqing-sks-test-3-3-controlplane-2prfs",
+      "containers": [
+        {
+          "name": "etcd",
+          "restartCount": 0,
+          "lastRestartReason": ""
+        }
+      ]
+    },
+    {
+      "name": "kube-proxy-66xwl",
+      "containers": [
+        {
+          "name": "kube-proxy",
+          "restartCount": 0,
+          "lastRestartReason": ""
+        }
+      ]
+    },
+    {
+      "name": "kube-apiserver-huaqing-sks-test-3-3-controlplane-x8fg4",
+      "containers": [
+        {
+          "name": "kube-apiserver",
+          "restartCount": 0,
+          "lastRestartReason": ""
+        }
+      ]
+    },
+    {
+      "name": "kube-proxy-5vq4b",
+      "containers": [
+        {
+          "name": "kube-proxy",
+          "restartCount": 0,
+          "lastRestartReason": ""
+        }
+      ]
+    },
+    {
+      "name": "kube-scheduler-huaqing-sks-test-3-3-controlplane-4f96c",
+      "containers": [
+        {
+          "name": "kube-scheduler",
+          "restartCount": 0,
+          "lastRestartReason": ""
+        }
+      ]
+    },
+    {
+      "name": "snapshot-controller-5799d596dd-nnmk6",
+      "containers": [
+        {
+          "name": "snapshot-controller",
+          "restartCount": 0,
+          "lastRestartReason": "\u0026ContainerStateTerminated{ExitCode:255,Signal:0,Reason:Error,Message:,StartedAt:2022-12-29 11:52:09 +0800 CST,FinishedAt:2022-12-29 11:52:24 +0800 CST,ContainerID:containerd://17788aef7aa4befaf4c2d3b37ceec7962b37c164f98b2769f30ac822b5259906,}"
+        }
+      ]
+    },
+    {
+      "name": "kube-vip-huaqing-sks-test-3-3-controlplane-4f96c",
+      "containers": [
+        {
+          "name": "kube-vip",
+          "restartCount": 0,
+          "lastRestartReason": ""
+        }
+      ]
+    },
+    {
+      "name": "coredns-767c486d54-n6mrk",
+      "containers": [
+        {
+          "name": "coredns",
+          "restartCount": 0,
+          "lastRestartReason": ""
+        }
+      ]
+    },
+    {
+      "name": "kube-scheduler-huaqing-sks-test-3-3-controlplane-x8fg4",
+      "containers": [
+        {
+          "name": "kube-scheduler",
+          "restartCount": 0,
+          "lastRestartReason": "\u0026ContainerStateTerminated{ExitCode:1,Signal:0,Reason:Error,Message:,StartedAt:2022-12-29 11:50:15 +0800 CST,FinishedAt:2022-12-29 11:52:22 +0800 CST,ContainerID:containerd://6bcaa2ebf13f543d2077cbe23333ac917a387bdb21c722af09ba7f32eadc2aa1,}"
+        }
+      ]
+    },
+    {
+      "name": "kube-proxy-n5r8r",
+      "containers": [
+        {
+          "name": "kube-proxy",
+          "restartCount": 0,
+          "lastRestartReason": ""
+        }
+      ]
+    },
+    {
+      "name": "kube-scheduler-huaqing-sks-test-3-3-controlplane-2prfs",
+      "containers": [
+        {
+          "name": "kube-scheduler",
+          "restartCount": 0,
+          "lastRestartReason": ""
+        }
+      ]
+    },
+    {
+      "name": "kube-controller-manager-huaqing-sks-test-3-3-controlplane-4f96c",
+      "containers": [
+        {
+          "name": "kube-controller-manager",
+          "restartCount": 0,
+          "lastRestartReason": ""
+        }
+      ]
+    },
+    {
+      "name": "kube-proxy-8mqpm",
+      "containers": [
+        {
+          "name": "kube-proxy",
+          "restartCount": 0,
+          "lastRestartReason": ""
+        }
+      ]
+    },
+    {
+      "name": "coredns-767c486d54-n4gvk",
+      "containers": [
+        {
+          "name": "coredns",
+          "restartCount": 0,
+          "lastRestartReason": ""
+        }
+      ]
+    },
+    {
+      "name": "kube-vip-huaqing-sks-test-3-3-controlplane-2prfs",
+      "containers": [
+        {
+          "name": "kube-vip",
+          "restartCount": 0,
+          "lastRestartReason": ""
+        }
+      ]
+    },
+    {
+      "name": "kube-apiserver-huaqing-sks-test-3-3-controlplane-2prfs",
+      "containers": [
+        {
+          "name": "kube-apiserver",
+          "restartCount": 0,
+          "lastRestartReason": "\u0026ContainerStateTerminated{ExitCode:1,Signal:0,Reason:Error,Message:,StartedAt:2022-12-29 11:51:57 +0800 CST,FinishedAt:2022-12-29 11:52:18 +0800 CST,ContainerID:containerd://dbfcb443790a3d97c391e805afc6f6c2aa56d51085d618ad98cb5138d81f977a,}"
+        }
+      ]
+    },
+    {
+      "name": "kube-vip-huaqing-sks-test-3-3-controlplane-x8fg4",
+      "containers": [
+        {
+          "name": "kube-vip",
+          "restartCount": 0,
+          "lastRestartReason": "\u0026ContainerStateTerminated{ExitCode:1,Signal:0,Reason:Error,Message:,StartedAt:2022-12-29 11:50:16 +0800 CST,FinishedAt:2022-12-29 11:52:22 +0800 CST,ContainerID:containerd://72c675f396933255a8bf75f510681932dc00e80bf0e6173552a30e0377dc2d68,}"
+        }
+      ]
+    },
+    {
+      "name": "etcd-huaqing-sks-test-3-3-controlplane-x8fg4",
+      "containers": [
+        {
+          "name": "etcd",
+          "restartCount": 0,
+          "lastRestartReason": ""
+        }
+      ]
+    },
+    {
+      "name": "kube-controller-manager-huaqing-sks-test-3-3-controlplane-x8fg4",
+      "containers": [
+        {
+          "name": "kube-controller-manager",
+          "restartCount": 0,
+          "lastRestartReason": "\u0026ContainerStateTerminated{ExitCode:1,Signal:0,Reason:Error,Message:,StartedAt:2022-12-29 11:50:15 +0800 CST,FinishedAt:2022-12-29 11:52:22 +0800 CST,ContainerID:containerd://181b75957ef09ca60b299b94e8ef82efacdda38f11b20a268747bfca4f9ed18c,}"
+        }
+      ]
+    },
+    {
+      "name": "kube-proxy-n2kv8",
+      "containers": [
+        {
+          "name": "kube-proxy",
+          "restartCount": 0,
+          "lastRestartReason": ""
+        }
+      ]
+    },
+    {
+      "name": "kube-controller-manager-huaqing-sks-test-3-3-controlplane-2prfs",
+      "containers": [
+        {
+          "name": "kube-controller-manager",
+          "restartCount": 0,
+          "lastRestartReason": ""
+        }
+      ]
+    },
+    {
+      "name": "kube-proxy-k8lx5",
+      "containers": [
+        {
+          "name": "kube-proxy",
+          "restartCount": 0,
+          "lastRestartReason": ""
+        }
+      ]
+    }
+  ]
+}

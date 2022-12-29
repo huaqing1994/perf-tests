@@ -70,12 +70,14 @@ spec:
   # We add node tolerations for control-plane nodes in Azure Windows test jobs which do not support Google PD
   storage:
     volumeClaimTemplate:
+      apiVersion: v1
+      kind: PersistentVolumeClaim
       spec:
-        storageClassName: {{$PROMETHEUS_PVC_STORAGE_CLASS}}
+        accessModes:
+        - ReadWriteOnce
         resources:
           requests:
-            # Start with 10Gi, add 10Gi for each 1K nodes.
-            storage: {{MultiplyInt 10 (AddInt 1 (DivideInt .Nodes 1000))}}Gi
+            storage: 25Gi
   {{ end }}
   query:
     maxSamples: 100000000

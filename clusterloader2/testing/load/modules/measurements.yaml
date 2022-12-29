@@ -89,10 +89,10 @@ steps:
       replicasPerProbe: {{AddInt 2 (DivideInt .Nodes 100)}}
 {{end}}
 {{if $PROMETHEUS_SCRAPE_KUBE_PROXY}}
-  - Identifier: NetworkProgrammingLatency
-    Method: NetworkProgrammingLatency
-    Params:
-      action: {{$action}}
+#  - Identifier: NetworkProgrammingLatency
+#    Method: NetworkProgrammingLatency
+#    Params:
+#      action: {{$action}}
   - Identifier: Kube-proxy partial iptables restore failures
     Method: GenericPrometheusQuery
     Params:

@@ -45,3 +45,5 @@ spec:
         value: arm64
         effect: NoSchedule
       {{end}}
+      - effect: NoSchedule
+        operator: Exists

@@ -93,7 +93,7 @@ func InitFlags(p *config.PrometheusConfig) {
 	flags.BoolEnvVar(&p.ScrapeAnet, "prometheus-scrape-anet", "PROMETHEUS_SCRAPE_ANET", false, "Whether to scrape anet pods.")
 	flags.BoolEnvVar(&p.ScrapeCiliumOperator, "prometheus-scrape-cilium-operator", "PROMETHEUS_SCRAPE_CILIUM_OPERATOR", false, "Whether to scrape cilium-operator pods.")
 	flags.BoolEnvVar(&p.ScrapeMastersWithPublicIPs, "prometheus-scrape-masters-with-public-ips", "PROMETHEUS_SCRAPE_MASTERS_WITH_PUBLIC_IPS", false, "Whether to scrape master machines using public ips, instead of private.")
-	flags.IntEnvVar(&p.APIServerScrapePort, "prometheus-apiserver-scrape-port", "PROMETHEUS_APISERVER_SCRAPE_PORT", 443, "Port for scraping kube-apiserver (default 443).")
+	flags.IntEnvVar(&p.APIServerScrapePort, "prometheus-apiserver-scrape-port", "PROMETHEUS_APISERVER_SCRAPE_PORT", 6443, "Port for scraping kube-apiserver (default 443).")
 	flags.StringEnvVar(&p.SnapshotProject, "experimental-snapshot-project", "PROJECT", "", "GCP project used where disks and snapshots are located.")
 	flags.StringEnvVar(&p.ManifestPath, "prometheus-manifest-path", "PROMETHEUS_MANIFEST_PATH", "", "Path to the prometheus manifest files.")
 	flags.StringEnvVar(&p.StorageClassProvisioner, "prometheus-storage-class-provisioner", "PROMETHEUS_STORAGE_CLASS_PROVISIONER", "kubernetes.io/gce-pd", "Volumes plugin used to provision PVs for Prometheus.")
@@ -552,5 +552,5 @@ func getMasterIpsFromKubernetesService(clusterConfig config.ClusterConfig) ([]st
 }
 
 func isEtcdEndpoint(endpoint string) bool {
-	return endpoint == "etcd-2379" || endpoint == "etcd-2382"
+	return endpoint == "etcd-2379" || endpoint == "etcd-2381"
 }

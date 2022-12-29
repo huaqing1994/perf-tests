@@ -206,7 +206,7 @@ func (w *waitForControlledPodsRunningMeasurement) Execute(config *measurement.Co
 		if err != nil {
 			return nil, err
 		}
-		w.checkIfPodsAreUpdated, err = util.GetBoolOrDefault(config.Params, "checkIfPodsAreUpdated", true)
+		w.checkIfPodsAreUpdated, err = util.GetBoolOrDefault(config.Params, "checkIfPodsAreUpdated", false)
 		if err != nil {
 			return nil, err
 		}

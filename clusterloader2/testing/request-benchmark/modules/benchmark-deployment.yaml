@@ -10,7 +10,7 @@ steps:
     Params:
       action: start
       apiVersion: apps/v1
-      checkIfPodsAreUpdated: true
+      checkIfPodsAreUpdated: false
       kind: Deployment
       labelSelector: group = benchmark
       operationTimeout: 5m
